@@ -40,7 +40,7 @@ public class ServerMain extends Application {
         // Test avec les parametres de comm dans properties/nmea.properties
         nmeaServerServices.init();
         nmeaServerServices.openSerialPort();
-        nmeaServerServices.openFile();
+      //  nmeaServerServices.openFile();
 
         Button button = new Button("Stop",
                 new ImageView(new Image(getClass().getResourceAsStream("stop_40x40.png"))));
